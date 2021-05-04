@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg,#df5bfa,#75b9ce);
+    background-size: cover;
+}
+
+    form{
+        background-color: rgb(214, 197, 243);
+        background-origin: content-box;
+        color: rgb(0, 6, 12);
+        width: max-content;
+        margin-left: 550px;
+        width: 450px;
+        margin-top: 200px;
+        padding: 20px;
+        border-radius: 55px;
+    }
+label,p{
+    font-size: large;
+    font-weight: bold;
+}
+input{
+    float:right;
+}
+#btn{
+    background-color: rgb(17, 92, 116);
+    color: aliceblue;
+    padding: 10px;
+}

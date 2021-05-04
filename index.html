@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>SI Calculator</title>
+</head>
+<body> 
+    <form autocomplete="off">
+        <h1 style="padding: 20px;text-align: center;">Simple Interest Calculator</h1>
+        <label for="p">Principle:</label>
+        <input id="p"><br><br>
+        <label for="r">Interest Rate:</label>
+        <input id="r"><br><br>
+        <label for="n">Duration:</label>
+        <input id="n"><br><br>
+
+        <button type="button" id="btn" onclick="calculate()" style="margin-left: 170px;">Calculate</button>
+        <p id="result" style=" font-size:large;"></p>
+    </form>
+  
+    <script type ="text/javascript" src="script.js"></script>
+</body>
+</html>
